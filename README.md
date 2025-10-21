@@ -57,3 +57,4 @@ O **Sistema de Gerenciamento de Biblioteca Escolar** foi desenvolvido para atend
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seuusuario/biblioteca-escolar.git
+cd biblioteca-escolar
