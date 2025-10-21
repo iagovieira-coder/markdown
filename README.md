@@ -57,3 +57,73 @@ O **Sistema de Gerenciamento de Biblioteca Escolar** foi desenvolvido para atend
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seuusuario/biblioteca-escolar.git
+Acesse o diretório do projeto:
+
+cd biblioteca-escolar
+
+
+Crie e ative um ambiente virtual:
+
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+.\venv\Scripts\activate    # Windows
+
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+
+Execute o servidor local:
+
+python manage.py runserver
+
+📷 Logo do Projeto
+
+💻 Exemplo de Uso
+from biblioteca.models import Livro
+
+novo_livro = Livro(
+    titulo="Dom Casmurro",
+    autor="Machado de Assis",
+    isbn="978-85-359-0277-9",
+    categoria="Literatura Brasileira"
+)
+novo_livro.save()
+print("Livro cadastrado com sucesso!")
+
+📈 Próximas Atualizações
+
+ Cadastro de livros
+
+ Empréstimo e devolução
+
+ Integração com sistema de biblioteca municipal
+
+ Versão mobile responsiva
+
+ Geração automática de carteirinhas
+
+ Integração com QR Code
+
+🔗 Repositórios Relacionados
+
+🔗 Sistema de Login para Escolas
+
+🔗 Painel Administrativo Escolar
+
+🙋 Contribuidores
+
+👤 @usuario1 - Desenvolvimento Back-end
+
+🎨 @usuario2 - Design de Interface e Front-end
+
+📞 Contato
+
+Entre em contato para dúvidas, sugestões ou colaborações:
+
+Email: suporte@bibliotecaescolar.com
+
+LinkedIn: linkedin.com/in/seu-nome
+
+Site Oficial: bibliotecaescolar.com
